@@ -1,0 +1,19 @@
+.formContainer{
+    /* text-align: center; */
+    margin:auto;
+    /* padding: 0px 42px; */
+}
+
+.formItemContainer{
+padding:10px;
+display:flex;
+}
+
+.inputItem{
+    width: 247px !important
+
+}
+
+.btn{
+    margin:auto
+}

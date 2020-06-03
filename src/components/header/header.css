@@ -1,0 +1,66 @@
+.header {
+    width: 100vw;
+    text-align: end;
+    padding: 15px;
+    height:8vh;
+    top:0px !important;
+    z-index: 99 !important;
+    /* background-image: url("../../assests/background1.jpg"); */
+    /* position: fixed; */
+}
+
+
+.subHeader{ 
+    margin-bottom: 23px;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+    color: white;
+    padding: 5px;
+}
+
+.drawer{
+    color:black;
+}
+
+.logout{
+    cursor: pointer;
+    color:rgb(152, 205, 248)
+}
+
+.icons{
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px !important;
+    color:rgb(185, 216, 252) !important;
+    /* background-color: rgb(255,255,255,0.5); */
+}
+
+.details{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    padding:10px; 
+    /* text-align: center; */
+}
+
+.name {
+    display:flex;
+}
+
+.menu{
+    height:4vh;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+.logo{
+float:right
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        background-image: url("../../assests/background1.jpg");
+        padding : 10px
+        /* background-color: rgb(255, 255, 255,0.5); */
+      }
+}

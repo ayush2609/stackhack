@@ -1,0 +1,30 @@
+.input{
+    border-radius: 3px;
+    width:22vw;
+    border:none;;
+    border-bottom: 2px solid rgb(5, 112, 141);
+    margin: auto;
+    background-color: transparent !important;
+    color:black;
+}
+
+input:focus, input:focus{
+    outline: none !important;
+    background-color: none !important;
+}
+
+input:-internal-autofill-selected {
+    background-color: none !important;
+}
+
+.ant-input:hover {
+    outline: none !important;
+    background: transparent;
+    border:none !important
+}
+
+@media screen and (max-width: 425px) {
+    .input{
+        width:55vw
+    }
+}

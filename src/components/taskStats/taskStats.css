@@ -1,0 +1,105 @@
+.stats{
+    margin-top: 10px;
+}
+
+.statsMain{
+   display:flex 
+}
+
+.statsCard{
+    display: flex;
+    height: 15vh;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    line-height: 8px;
+    color:white
+}
+
+.completed {
+    border-right: 2px solid rgb(39, 173, 39);
+}
+
+.pending{
+    border-right: 2px solid rgb(233, 169, 31);
+}
+
+.progress{
+    border-right: 2px solid rgb(8, 178, 230)
+}
+
+.iconContainer{
+    background: linear-gradient(to right,  #aaffa9, #11ffbd); 
+    height: 15vh;
+    width:5vw;
+    display:inline-block
+}
+
+.icon{
+    height:60px;
+    width:60px;
+}
+
+.statsText{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px;
+    line-height: 4px;
+    margin-top: 13px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {    
+    .statsText{
+        padding: 20px 2px;
+    }
+    .statsCard{
+        font-size: 18px;
+    }
+    .icon{
+        height:40px;
+        width:40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.statsCard {
+    font-size: 14px;
+    padding: 2px;
+}
+.icon {
+    height: 30px;
+    width: 30px;
+}
+.statsText{
+    padding: 20px 0px;
+}
+}
+
+@media screen and (max-width: 375px) {    
+    .statsText{
+        /* padding: 20px 18px; */
+        font-size: 12px !important;
+    }
+    .icon{
+        height:30px;
+        width:30px;
+    }
+}
+
+@media screen and (max-width: 425px) {    
+    .statsText{
+        padding: 7px 4px;
+        font-size: 15px;        
+    }
+
+    .statsCard{
+        display: flex;
+        flex-direction: column;
+        height: 12vh;
+    }
+}
+
+
+

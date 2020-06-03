@@ -1,0 +1,24 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Chivo');
+ 
+.body{
+    background-image: url("../../assests/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Chivo' ;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+
+.body::after {
+    transform: rotate(180deg)
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .body{
+        overflow-y: auto;
+    }
+}

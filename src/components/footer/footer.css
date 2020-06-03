@@ -1,0 +1,15 @@
+.footer {
+    width: 100vw;
+    text-align: center;
+    padding: 18px;
+}
+
+.subFooter{
+    height:7vh;
+    /* background-color: rgb(128, 128, 128,0.2); */
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

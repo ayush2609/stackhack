@@ -1,0 +1,47 @@
+.urgentTaskContainer{
+    display: grid;
+    grid-template-columns: 24vw 24vw;
+}
+
+.containerItems{
+border-radius: 3px;
+color:white !important
+}
+
+
+.pinned {
+    margin-left: 5px;
+}
+
+.urgentText{
+    color:red;
+}
+
+.pinnedText{
+    color:rgb(43, 45, 46)
+}
+
+.Heading{
+    height: 4vh;
+    padding: 6px;
+    font-weight: bold;
+    width: 23vw;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.noData{
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .urgentTaskContainer {
+        grid-template-columns: 46vw 42vw;
+      }
+
+    .Heading{
+        margin-left:0px !important
+    }
+}
+    

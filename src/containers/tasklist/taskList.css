@@ -1,0 +1,11 @@
+.taskListContainer{
+    height:80vh;
+    padding: 10px;
+    /* overflow: auto; */
+}
+
+@media screen and (max-width: 425px) {
+    .taskListContainer {
+        height:60vh;
+      }
+}

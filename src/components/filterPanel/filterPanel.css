@@ -1,0 +1,25 @@
+.filterPanel{
+    /* position: fixed; */
+    /* height: 50px; */
+    padding: 10px;
+    
+}
+
+.dropdowns{
+    display: flex;
+    /* font-weight: bold; */
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .dropdowns {
+       font-size: 8px;
+      }
+}
+
+

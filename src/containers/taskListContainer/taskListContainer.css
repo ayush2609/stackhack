@@ -1,0 +1,52 @@
+.actionPanel{
+    background-color: rgb(255, 255, 255,0.5);
+    margin-top: -9px;
+    display: flex;
+    margin-bottom: 18px;
+    flex-direction: column;
+    padding: 12px;
+    color: rgb(41, 40, 40);
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+.closeBtn{
+   float: right;
+}
+
+.actionIcons{
+    margin-top: 10px;
+}
+
+.taskListContainer1{
+    height:60vh;
+    overflow: auto;
+}
+
+.nodata{
+   text-align: center;
+    padding:15vh 0px
+}
+
+.statusMenu {
+    display:flex
+}
+
+.menuItem {
+    margin: auto
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        background-image: url("../../assests/background1.jpg");
+        padding : 10px
+        /* background-color: rgb(255, 255, 255,0.5); */
+      }
+      .taskListContainer1{
+        height:41vh;
+        overflow: auto;
+    }
+}
+
+
+
